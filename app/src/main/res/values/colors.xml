@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main activity colors -->
+    <item name="backgroundMain" type="color">#FFECB3</item>
+
+    <!-- Main activity text color -->
+    <item name="textColorMain" type="color">#000</item>
+
+    <!-- Button gradient progression -->
+    <item name="deepBlueStart" type="color">#0D47A1</item>
+    <item name="deepBlueMiddle1" type="color">#1565C0</item>
+    <item name="deepBlueMiddle2" type="color">#1976D2</item>
+    <item name="deepBlueMiddle3" type="color">#1E88E5</item>
+    <item name="standardButtonColor" type="color">#2196F3</item>
+    <item name="highlightdButtonColor" type="color">#FF5722</item>
+
+</resources>

@@ -10,28 +10,29 @@
     tools:context=".MainActivity"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:background="#FFECB3">
+    android:background="@color/backgroundMain">
 
     <TextView android:text="@string/title_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:textColor="#000"
-        android:layout_marginBottom="30dp"/>
+        android:textSize="@dimen/main_title_text_size"
+        android:textColor="@color/textColorMain"
+        android:layout_marginBottom="@dimen/main_title_margin_bottom"
+        android:id="@+id/title_nano"/>
 
     <Button
        style="@style/CommonAppButton"
         android:text="@string/label_spotify_streamer"
         android:id="@+id/btn_streamer"
         android:onClick="openStreamer"
-        android:background="#0D47A1"/>
+        android:background="@color/deepBlueStart"/>
 
     <Button
         style="@style/CommonAppButton"
         android:text="@string/label_scores_app"
         android:id="@+id/btn_score"
         android:layout_gravity="center_horizontal"
-        android:background="#1565C0"
+        android:background="@color/deepBlueMiddle1"
         android:onClick="openScores"/>
 
     <Button
@@ -40,7 +41,7 @@
         android:id="@+id/btn_library"
         android:layout_gravity="center_horizontal"
         android:onClick="openLibrary"
-        android:background="#1976D2"/>
+        android:background="@color/deepBlueMiddle2"/>
 
     <Button
         style="@style/CommonAppButton"
@@ -48,7 +49,7 @@
         android:id="@+id/btn_build_bigger"
         android:layout_gravity="center_horizontal"
         android:onClick="openBuildBigger"
-        android:background="#1E88E5"/>
+        android:background="@color/deepBlueMiddle3"/>
 
     <Button
         style="@style/CommonAppButton"
